@@ -13,9 +13,9 @@ public class Winner {
 			if(pC.getMove() == "Pedra") {
 				return aTie;
 			}else if(pC.getMove() == "Papel") {
-				return pO.getName() + win;
-			}else if(pC.getMove() == "Tesoura") {
 				return pC.getName() + win;
+			}else if(pC.getMove() == "Tesoura") {
+				return pO.getName() + win;
 			}
 		}
 		if(pO.getMove() == "Papel") {
